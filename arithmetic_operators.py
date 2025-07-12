@@ -13,3 +13,5 @@ ex_2 = 6//4 #rounds the decimal down to closet integer
 ex_3 = 6 % 4
 
 print(f"Normal division:{ex_1}",f"Floor division: {ex_2}",f"Modulus Operator: {ex_3}",sep="\n")
+
+
