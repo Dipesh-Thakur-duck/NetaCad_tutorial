@@ -7,7 +7,7 @@ while count != 0:
 
 # way 2
 
-count 5
+count =5
 while count:
     print(count)
     count -= 1
