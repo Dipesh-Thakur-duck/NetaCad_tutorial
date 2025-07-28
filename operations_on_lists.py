@@ -35,4 +35,4 @@ list_3 = list_2
 del list_1[0] # -> affects the actual list
 del list_2 # -> basically removes the pointer to the list
 
-print(list_3) # -> ["B","C"]
+print(list_3) # -> ["B","C"]print(list_3) # -> ["B","C"]
