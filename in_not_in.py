@@ -1,6 +1,6 @@
 list_1 = [1,2,3,4,5]
 
-# in and not in are two very powerful operators, able to look through the lis tin order to check whether a specific value is stored inside the list or no.
+# in and not in are two very powerful operators, able to look through the list in order to check whether a specific value is stored inside the list or no.
 
 print(5 in list_1)
 print(12 not in list_1)

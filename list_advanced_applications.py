@@ -82,3 +82,8 @@ items = [2,3,4,5]
 print([item ** 2 if item % 2 == 0 else item ** 3 for item in items])
 
 print([num ** 2 for num in [2,3,4,5] if num % 2 == 0])
+
+# Interesting:
+
+my_list = [[0,1,2,3] for i in range (2)] # -> creates a 2-D list with [0,1,2,3] as element at index 0 and 1
+print(my_list)
