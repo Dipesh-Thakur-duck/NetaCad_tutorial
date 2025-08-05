@@ -54,5 +54,6 @@ var = 1
 my_function4(var)
 print(var)
 
-# changing the parameter's value doesn't propagate outside the function
-# This also means that a function receives the argument's value, not the argument itself. This is true for scalars
+# changing the parameter's value doesn't propagate outside the function which is true for scalar and str but not for other complex data types like list, dict etc.
+
+# functions always get reference to a variable but if the data type of the value stored in the reference is immutable, changing the value creates a new value
