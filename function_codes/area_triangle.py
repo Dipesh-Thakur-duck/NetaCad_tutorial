@@ -10,3 +10,5 @@ def area_triange(a,b,c):
     return None
 
 print(area_triange(1,2,2.5))
+
+

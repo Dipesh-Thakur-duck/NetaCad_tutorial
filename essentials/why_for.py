@@ -8,5 +8,5 @@ while count <= 5:
 
 # for makes it easy
 
-for i in range(5): # 0,1,2,3,4
+for i in range(5): # [0,1,2,3,4]
     print(i+1) # 1,2,3,4,5
